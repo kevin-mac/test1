@@ -1,0 +1,43 @@
+{
+  "distanceUnits": [
+    {
+      "unit": "FEET",
+      "abbr": "'"
+    },
+    {
+      "unit": "MILES",
+      "abbr": "mi"
+    },
+    {
+      "unit": "KILOMETERS",
+      "abbr": "km"
+    },
+    {
+      "unit": "METERS",
+      "abbr": "m"
+    }
+  ],
+  "areaUnits": [
+    {
+      "unit": "SQUARE_FEET",
+      "abbr": "sq ft"
+    },
+    {
+      "unit": "SQUARE_MILES",
+      "abbr": "sq mi"
+    },
+    {
+      "unit": "ACRES",
+      "abbr": "ac"
+    },
+    {
+      "unit": "SQUARE_KILOMETERS",
+      "abbr": "sq km"
+    },
+    {
+      "unit": "SQUARE_METERS",
+      "abbr": "sq m"
+    }
+  ],
+  "isOperationalLayer": true
+}

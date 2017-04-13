@@ -1,0 +1,180 @@
+{
+  "basemapGallery": {
+    "basemaps": [
+      {
+        "title": "2016 Imagery",
+        "layers": [
+          {
+            "url": "http://sagisservices.thempc.org/saint/rest/services/Imagery/NearMapImagery2016_WebMercatorTiled/ImageServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_2023.png"
+      },
+      {
+        "title": "2013 Imagery",
+        "layers": [
+          {
+            "url": "http://sagisservices.thempc.org/saint/rest/services/Imagery/Imagery_2013/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_2024.png"
+      },
+      {
+        "title": "2011 Imagery",
+        "layers": [
+          {
+            "url": "http://sagisservices.thempc.org/saint/rest/services/Imagery/Imagery_2011/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_2025.png"
+      },
+      {
+        "title": "2008 Imagery",
+        "layers": [
+          {
+            "url": "http://sagisservices.thempc.org/saint/rest/services/Imagery/Imagery_Tiles/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_2026.png"
+      },
+      {
+        "title": "Dark Gray Canvas",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_2027.png",
+        "layers": [
+          {
+            "id": "layer0",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer"
+          },
+          {
+            "id": "World_Dark_Gray_Reference_8618",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Reference/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "isReference": true
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      {
+        "title": "Light Gray Canvas",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_2028.png",
+        "layers": [
+          {
+            "id": "World_Light_Gray_Base_1486",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer"
+          },
+          {
+            "id": "World_Light_Gray_Reference_8656",
+            "isReference": true,
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "title": "Topographic",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_2029.png",
+        "layers": [
+          {
+            "id": "defaultBasemap",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "title": "ESRI World Imagery",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_2030.png",
+        "layers": [
+          {
+            "id": "World_Imagery_2017",
+            "visibility": true,
+            "opacity": 1,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "title": "ESRI World Imagery with Labels",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_2031.png",
+        "layers": [
+          {
+            "id": "World_Imagery_6611",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
+          },
+          {
+            "id": "World_Boundaries_and_Places_1145",
+            "isReference": true,
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "title": "Streets",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_2032.png",
+        "layers": [
+          {
+            "id": "World_Street_Map_8421",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "title": "No Basemap (blank)",
+        "thumbnailUrl": "/webappbuilder/apps/3/widgets/BasemapGallery/images/default.jpg",
+        "layers": [
+          {
+            "url": "http://sagisservices.thempc.org/saint/rest/services/grid102100/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    ],
+    "mode": 2
+  }
+}

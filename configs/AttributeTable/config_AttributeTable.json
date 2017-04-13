@@ -1,0 +1,4434 @@
+{
+  "layerInfos": [
+    {
+      "name": "Critical Facilities",
+      "id": "CEMA1_5289",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "ID",
+            "alias": "Unique Facility ID",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FACILITY",
+            "alias": "Name of Facility",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ADDRESS",
+            "alias": "Facility Address",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CITY",
+            "alias": "City",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STATE",
+            "alias": "State",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ZIP",
+            "alias": "Zip Code",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DESCRIPTION",
+            "alias": "Description of Location",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PRIORITY",
+            "alias": "CEMA Priority Level",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SIZE_SQFT",
+            "alias": "Size of Building in Sq.Ft.",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CAPACITY",
+            "alias": "Capacity of Building",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DESIGNATION",
+            "alias": "HazMat Study Designation",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CATEGORY",
+            "alias": "Type of Facility",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BLDG_VALUE",
+            "alias": "Building Value",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "VERIFIED",
+            "alias": "Location Verified",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "POINT_X",
+            "alias": "POINT_X",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_Y",
+            "alias": "POINT_Y",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "PIN",
+            "alias": "PIN",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Emergency Sirens",
+      "id": "CEMA1_9790",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "ID",
+            "alias": "ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SiteNumber",
+            "alias": "SiteNumber",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "x",
+            "alias": "x",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Location",
+            "alias": "Location",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ORIG_FID",
+            "alias": "ORIG_FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_X",
+            "alias": "POINT_X",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_Y",
+            "alias": "POINT_Y",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Year_added",
+            "alias": "Year_added",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "Serial",
+            "alias": "Serial",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "MUNI",
+            "alias": "Municipality",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "NEIGHBORHOOD",
+            "alias": "Neighborhood",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Owner",
+            "alias": "Owner",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Priority",
+            "alias": "Siren Priority",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Special Needs",
+      "id": "CEMA1_2325",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/5",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Score",
+            "alias": "Score",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LastName",
+            "alias": "LastName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "First_1",
+            "alias": "First_1",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "First_2",
+            "alias": "First_2",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Unit",
+            "alias": "Unit",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Zip",
+            "alias": "Zip",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Info",
+            "alias": "Info",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Traffic Control Points",
+      "id": "CEMA1_1997",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/3",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "ID",
+            "alias": "ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PRIMARY_RO",
+            "alias": "PRIMARY_RO",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "INTERSECTI",
+            "alias": "INTERSECTI",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CITY_COUNT",
+            "alias": "CITY_COUNT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CEMA.CEMA.CEMA_Hurricane_Traffic_Control_Point.AREA",
+            "alias": "AREA",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "OFC",
+            "alias": "OFC",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Reentry Routes",
+      "id": "CEMA1_121",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/7",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "PRE_DIR",
+            "alias": "PRE_DIR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STR_NAME",
+            "alias": "STR_NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STR_SUFFIX",
+            "alias": "STR_SUFFIX",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "POST_DIR",
+            "alias": "POST_DIR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ONEWAY",
+            "alias": "ONEWAY",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "L_LOW",
+            "alias": "L_LOW",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "L_HIGH",
+            "alias": "L_HIGH",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "R_LOW",
+            "alias": "R_LOW",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "R_HIGH",
+            "alias": "R_HIGH",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FULLNAME",
+            "alias": "FULLNAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME",
+            "alias": "ALT_NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "flag1",
+            "alias": "flag1",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "flag2",
+            "alias": "flag2",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Verified",
+            "alias": "Verified",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STREET_ID",
+            "alias": "STREET_ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FIPS",
+            "alias": "FIPS",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RD_CLASS",
+            "alias": "RD_CLASS",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "MSAG_COM_LT",
+            "alias": "MSAG_COM_LT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "MSAG_COM_RT",
+            "alias": "MSAG_COM_RT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "POL_LT",
+            "alias": "POL_LT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "POL_RT",
+            "alias": "POL_RT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EMS_LT",
+            "alias": "EMS_LT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EMS_RT",
+            "alias": "EMS_RT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ZIP_LT",
+            "alias": "ZIP_LT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ZIP_RT",
+            "alias": "ZIP_RT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SOURCE",
+            "alias": "SOURCE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SRC_DATE",
+            "alias": "SRC_DATE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LAST_EDIT_DATE",
+            "alias": "LAST_EDIT_DATE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ATTRIBUTED",
+            "alias": "ATTRIBUTED",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FEATURE_ID",
+            "alias": "FEATURE_ID",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "INV_ROUTE_ID",
+            "alias": "INV_ROUTE_ID",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "JoinID",
+            "alias": "JoinID",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FIRE_LT",
+            "alias": "FIRE_LT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FIRE_RT",
+            "alias": "FIRE_RT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "HWY_CLASS",
+            "alias": "Highway Classification",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EVAC_RTE",
+            "alias": "EVAC_RTE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "REENTRY_RTE",
+            "alias": "REENTRY_RTE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE.len",
+            "alias": "SHAPE.len",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ALT_NAME2",
+            "alias": "ALT_NAME2",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME3",
+            "alias": "ALT_NAME3",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME4",
+            "alias": "ALT_NAME4",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME5",
+            "alias": "ALT_NAME5",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME6",
+            "alias": "ALT_NAME6",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LAR",
+            "alias": "LAR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "T_LFROM",
+            "alias": "Theoretical - Left From",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "T_LTO",
+            "alias": "Theoretical - Left To",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "T_RFROM",
+            "alias": "Theoretical - Right From",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "T_RTO",
+            "alias": "Theoretical - Right To",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LAD",
+            "alias": "LAD",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RD_L",
+            "alias": "RD_L",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RD_R",
+            "alias": "RD_R",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CITY_L",
+            "alias": "CITY_L",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CITY_R",
+            "alias": "CITY_R",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RSTATUS",
+            "alias": "ROAD STATUS",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Evacuation Routes",
+      "id": "CEMA1_9802",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/6",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "PRE_DIR",
+            "alias": "PRE_DIR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STR_NAME",
+            "alias": "STR_NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STR_SUFFIX",
+            "alias": "STR_SUFFIX",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "POST_DIR",
+            "alias": "POST_DIR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ONEWAY",
+            "alias": "ONEWAY",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "L_LOW",
+            "alias": "L_LOW",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "L_HIGH",
+            "alias": "L_HIGH",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "R_LOW",
+            "alias": "R_LOW",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "R_HIGH",
+            "alias": "R_HIGH",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FULLNAME",
+            "alias": "FULLNAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME",
+            "alias": "ALT_NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "flag1",
+            "alias": "flag1",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "flag2",
+            "alias": "flag2",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Verified",
+            "alias": "Verified",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STREET_ID",
+            "alias": "STREET_ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FIPS",
+            "alias": "FIPS",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RD_CLASS",
+            "alias": "RD_CLASS",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "MSAG_COM_LT",
+            "alias": "MSAG_COM_LT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "MSAG_COM_RT",
+            "alias": "MSAG_COM_RT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "POL_LT",
+            "alias": "POL_LT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "POL_RT",
+            "alias": "POL_RT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EMS_LT",
+            "alias": "EMS_LT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EMS_RT",
+            "alias": "EMS_RT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ZIP_LT",
+            "alias": "ZIP_LT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ZIP_RT",
+            "alias": "ZIP_RT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SOURCE",
+            "alias": "SOURCE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SRC_DATE",
+            "alias": "SRC_DATE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LAST_EDIT_DATE",
+            "alias": "LAST_EDIT_DATE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ATTRIBUTED",
+            "alias": "ATTRIBUTED",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FEATURE_ID",
+            "alias": "FEATURE_ID",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "INV_ROUTE_ID",
+            "alias": "INV_ROUTE_ID",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "JoinID",
+            "alias": "JoinID",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FIRE_LT",
+            "alias": "FIRE_LT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FIRE_RT",
+            "alias": "FIRE_RT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "HWY_CLASS",
+            "alias": "Highway Classification",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EVAC_RTE",
+            "alias": "EVAC_RTE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "REENTRY_RTE",
+            "alias": "REENTRY_RTE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE.len",
+            "alias": "SHAPE.len",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ALT_NAME2",
+            "alias": "ALT_NAME2",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME3",
+            "alias": "ALT_NAME3",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME4",
+            "alias": "ALT_NAME4",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME5",
+            "alias": "ALT_NAME5",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME6",
+            "alias": "ALT_NAME6",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LAR",
+            "alias": "LAR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "T_LFROM",
+            "alias": "Theoretical - Left From",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "T_LTO",
+            "alias": "Theoretical - Left To",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "T_RFROM",
+            "alias": "Theoretical - Right From",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "T_RTO",
+            "alias": "Theoretical - Right To",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LAD",
+            "alias": "LAD",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RD_L",
+            "alias": "RD_L",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RD_R",
+            "alias": "RD_R",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CITY_L",
+            "alias": "CITY_L",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CITY_R",
+            "alias": "CITY_R",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RSTATUS",
+            "alias": "ROAD STATUS",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Debris Storage Sites",
+      "id": "CEMA1_3863",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/4",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "ID",
+            "alias": "ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CEMA.CEMA.CEMA_Hurricane_Debris_Storage_Site.AREA",
+            "alias": "AREA",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PERIMETER",
+            "alias": "PERIMETER",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ACRES",
+            "alias": "ACRES",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DEBRI_STOR",
+            "alias": "DEBRI_STOR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE.area",
+            "alias": "SHAPE.area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE.len",
+            "alias": "SHAPE.len",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_X",
+            "alias": "POINT_X",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_Y",
+            "alias": "POINT_Y",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "VOLUME",
+            "alias": "VOLUME (cubic yards)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Fuel Storage Facilities",
+      "id": "CEMA1_7854",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/2",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Facility",
+            "alias": "Facility",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Zip",
+            "alias": "Zip",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_X",
+            "alias": "POINT_X",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_Y",
+            "alias": "POINT_Y",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Addresses",
+      "id": "BOA_3685",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/BOA/BOA/MapServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "ADD_ID",
+            "alias": "ADD_ID",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "VACANT",
+            "alias": "VACANT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "X",
+            "alias": "X",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Y",
+            "alias": "Y",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LATITUDE",
+            "alias": "LATITUDE",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LONGITUDE",
+            "alias": "LONGITUDE",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PIN",
+            "alias": "PIN",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STPRE_TYPE",
+            "alias": "STPRE_TYPE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STPRE_Q",
+            "alias": "STPRE_Q",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STNUM",
+            "alias": "STNUM",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "STDIR",
+            "alias": "STDIR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STNAME",
+            "alias": "STNAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STSUFFIX",
+            "alias": "STSUFFIX",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STRENUMB",
+            "alias": "STRENUMB",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STSUF_DIR",
+            "alias": "STSUF_DIR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STSUF_Q",
+            "alias": "STSUF_Q",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "UNIT",
+            "alias": "UNIT NUMBER",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RURALRTE",
+            "alias": "RURALRTE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "RR_ZIP",
+            "alias": "RR_ZIP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PD_BEAT",
+            "alias": "PD BEAT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PD_NHOOD",
+            "alias": "PD NEIGHBORHOOD",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PD_PRE",
+            "alias": "PD PRECINCT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PD_AGNC",
+            "alias": "PD AGENCY",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FD_RD",
+            "alias": "FD_RD",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FD_AREA",
+            "alias": "FD_AREA",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FD_AGNC",
+            "alias": "FD_AGNC",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EMS_RD",
+            "alias": "EMS_RD",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EMS_AGNC",
+            "alias": "EMS_AGNC",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PD_RD",
+            "alias": "PD_RD",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "NEI_NUM",
+            "alias": "NEIGHBORHOOD NUMBER",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NEI_NAME",
+            "alias": "NEIGHBORHOOD NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "MUNICPLT",
+            "alias": "MUNICIPALITY",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALDER",
+            "alias": "ALDER",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CENSUS_TRACK",
+            "alias": "CENSUS TRACK",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CENSUS_BLOCK",
+            "alias": "CENSUS BLOCK",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ZIP",
+            "alias": "ZIP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CITY_ADDRESS",
+            "alias": "CITY ADDRESS",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SOURCE",
+            "alias": "SOURCE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "VERIFIED",
+            "alias": "VERIFIED",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "O_DATE",
+            "alias": "OVERLAY DATE",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "FULL_ADDRESS",
+            "alias": "FULL ADDRESS",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME",
+            "alias": "ALT_NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME2",
+            "alias": "ALT_NAME2",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME3",
+            "alias": "ALT_NAME3",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME4",
+            "alias": "ALT_NAME4",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME5",
+            "alias": "ALT_NAME5",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALT_NAME6",
+            "alias": "ALT_NAME6",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PREVIOUSADDRESS",
+            "alias": "PREVIOUS ADDRESS",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "PADDCHANGEDATE",
+            "alias": "PREVIOUS ADDRESS CHANGE DATE",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "EDITOR",
+            "alias": "EDITOR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EDIT_DATE",
+            "alias": "EDIT DATE",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Municipality",
+      "id": "BOA_2827",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/BOA/BOA/MapServer/3",
+        "fields": [
+          {
+            "name": "OBJECTID_12",
+            "alias": "OBJECTID_12",
+            "show": false
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "OBJECTID_1",
+            "alias": "OBJECTID_1",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "MUNICIPALITY_",
+            "alias": "MUNICIPALITY_",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "MUNICIPALITY_ID",
+            "alias": "MUNICIPALITY_ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ACRES",
+            "alias": "ACRES",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SYM",
+            "alias": "SYM",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true
+          },
+          {
+            "name": "SQ_MILES",
+            "alias": "SQ_MILES",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CHATCOBND_",
+            "alias": "CHATCOBND_",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CHATCOBND_ID",
+            "alias": "CHATCOBND_ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DISTANCE",
+            "alias": "DISTANCE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false
+          },
+          {
+            "name": "SHAPE.area",
+            "alias": "SHAPE.area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE.len",
+            "alias": "SHAPE.len",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CITYID",
+            "alias": "CITYID",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Weather Watches & Warnings",
+      "id": "watch_warn_adv_1896",
+      "layer": {
+        "url": "https://idpgis.ncep.noaa.gov/arcgis/rest/services/NWS_Forecasts_Guidance_Warnings/watch_warn_adv/MapServer/1",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "phenom",
+            "alias": "phenom",
+            "show": false
+          },
+          {
+            "name": "sig",
+            "alias": "sig",
+            "show": false
+          },
+          {
+            "name": "warnid",
+            "alias": "warnid",
+            "show": false
+          },
+          {
+            "name": "wfo",
+            "alias": "wfo",
+            "show": true
+          },
+          {
+            "name": "event",
+            "alias": "event",
+            "show": true
+          },
+          {
+            "name": "issuance",
+            "alias": "issuance",
+            "show": true
+          },
+          {
+            "name": "expiration",
+            "alias": "expiration",
+            "show": true
+          },
+          {
+            "name": "url",
+            "alias": "url",
+            "show": true
+          },
+          {
+            "name": "msg_type",
+            "alias": "msg_type",
+            "show": false
+          },
+          {
+            "name": "prod_type",
+            "alias": "prod_type",
+            "show": true
+          },
+          {
+            "name": "idp_source",
+            "alias": "IDP_Source",
+            "show": false
+          },
+          {
+            "name": "idp_subset",
+            "alias": "IDP_Subset",
+            "show": false
+          },
+          {
+            "name": "idp_filedate",
+            "alias": "IDP_FileDate",
+            "show": false,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "idp_ingestdate",
+            "alias": "IDP_IngestDate",
+            "show": false,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "idp_current_forecast",
+            "alias": "IDP_Current_Forecast",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "idp_time_series",
+            "alias": "IDP_Time_Series",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "idp_issueddate",
+            "alias": "IDP_IssuedDate",
+            "show": false,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "idp_validtime",
+            "alias": "IDP_ValidTime",
+            "show": false,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "idp_validendtime",
+            "alias": "IDP_ValidEndTime",
+            "show": false,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "idp_fcst_hour",
+            "alias": "IDP_FCST_HOUR",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "shape",
+            "alias": "SHAPE",
+            "show": false
+          },
+          {
+            "name": "st_area(shape)",
+            "alias": "st_area(shape)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "st_length(shape)",
+            "alias": "st_length(shape)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Flood Zones 2013",
+      "id": "FloodZones2013_2024",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/FloodZones2013/MapServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "FLD_AR_ID",
+            "alias": "FLD_AR_ID",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FLD_ZONE",
+            "alias": "FLD_ZONE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FLOODWAY",
+            "alias": "FLOODWAY",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SFHA_TF",
+            "alias": "SFHA_TF",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STATIC_BFE",
+            "alias": "STATIC_BFE",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "V_DATUM",
+            "alias": "V_DATUM",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DEPTH",
+            "alias": "DEPTH",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LEN_UNIT",
+            "alias": "LEN_UNIT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "VELOCITY",
+            "alias": "VELOCITY",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "VEL_UNIT",
+            "alias": "VEL_UNIT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BFE_REVERT",
+            "alias": "BFE_REVERT",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DEP_REVERT",
+            "alias": "DEP_REVERT",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SOURCE_CIT",
+            "alias": "SOURCE_CIT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "AR_REVERT",
+            "alias": "AR_REVERT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Org_Source",
+            "alias": "Org_Source",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FLD_ZONE2",
+            "alias": "FLD_ZONE2",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape.area",
+            "alias": "Shape.area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape.len",
+            "alias": "Shape.len",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Census 2010 Blocks",
+      "id": "Tracts_Blocks_8506",
+      "layer": {
+        "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Tracts_Blocks/MapServer/12",
+        "fields": [
+          {
+            "name": "OID",
+            "alias": "OID",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "STATE",
+            "alias": "STATE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "COUNTY",
+            "alias": "COUNTY",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "TRACT",
+            "alias": "TRACT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BLKGRP",
+            "alias": "BLKGRP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BLOCK",
+            "alias": "BLOCK",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "SUFFIX",
+            "alias": "SUFFIX",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GEOID",
+            "alias": "GEOID",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LWBLKTYP",
+            "alias": "LWBLKTYP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "UR",
+            "alias": "UR",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "AREAWATER",
+            "alias": "AREAWATER",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "AREALAND",
+            "alias": "AREALAND",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "MTFCC",
+            "alias": "MTFCC",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BASENAME",
+            "alias": "BASENAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LSADC",
+            "alias": "LSADC",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FUNCSTAT",
+            "alias": "FUNCSTAT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CENTLON",
+            "alias": "CENTLON",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CENTLAT",
+            "alias": "CENTLAT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "INTPTLON",
+            "alias": "INTPTLON",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "INTPTLAT",
+            "alias": "INTPTLAT",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STGEOMETRY",
+            "alias": "STGEOMETRY",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "HU100",
+            "alias": "HU100",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POP100",
+            "alias": "POP100",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Chatham Census Block Group 2010",
+      "id": "Census_8809",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/OpenData/Census/MapServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "STATEFP10",
+            "alias": "STATEP10",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "COUNTYFP10",
+            "alias": "COUNTYFP10",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "NAMELSAD10",
+            "alias": "NAMELSAD10",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GEOID10",
+            "alias": "GEOID10",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "MTFCC10",
+            "alias": "MTFCC10",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FUNCSTAT10",
+            "alias": "FUNCSTAT10",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BLKGRPCE10",
+            "alias": "BLKGRPCE10",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "TRACTCE10",
+            "alias": "TRACTCE10",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ALAND10",
+            "alias": "ALAND10",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "AWATER10",
+            "alias": "AWATER10",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "INTPTLAT10",
+            "alias": "INTPTLAT10",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "INTPTLON10",
+            "alias": "INTPTLON10",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GEOID",
+            "alias": "GEOID",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GEOID_DISPLAY",
+            "alias": "GEOID_DISPLAY",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "D001",
+            "alias": "TOTAL POPULATION",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D002",
+            "alias": "TOTAL POPULATION ONE RACE",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D003",
+            "alias": "Total Population of one race: White alone",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D004",
+            "alias": "Total Population of one race: Black or African American alone",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D005",
+            "alias": "Total Population of one race: American Indian and Alaska Native alone",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D006",
+            "alias": "Total Population of one race: Asian alone",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D007",
+            "alias": "Total Population of one race: Native Hawaiian and Other Pacific Islander alone",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D008",
+            "alias": "Total Population of one race: Some Other Race alone",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D009",
+            "alias": "Total Two or More Races:",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D010",
+            "alias": "Total Two or More Races: Population of two races:",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D011",
+            "alias": "Total Two or More Races: Population of two races: White; Black or African American",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D012",
+            "alias": "Total Two or More Races: Population of two races: White; American Indian and Alaska Native",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D013",
+            "alias": "Total Two or More Races: Population of two races: White; Asian",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D014",
+            "alias": "Total Two or More Races: Population of two races: White; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D015",
+            "alias": "Total Two or More Races: Population of two races: White; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D016",
+            "alias": "Total Two or More Races: Population of two races: Black or African American; American Indian and Alaska Native",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D017",
+            "alias": "Total Two or More Races: Population of two races: Black or African American; Asian",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D018",
+            "alias": "Total Two or More Races: Population of two races: Black or African American; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D019",
+            "alias": "Total Two or More Races: Population of two races: Black or African American; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D020",
+            "alias": "Total Two or More Races: Population of two races: American Indian and Alaska Native; Asian",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D021",
+            "alias": "Total Two or More Races: Population of two races: American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D022",
+            "alias": "Total Two or More Races: Population of two races: American Indian and Alaska Native; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D023",
+            "alias": "Total Two or More Races: Population of two races: Asian; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D024",
+            "alias": "Total Two or More Races: Population of two races: Asian; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D025",
+            "alias": "Total Two or More Races: Population of two races: Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D026",
+            "alias": "Total Two or More Races: Population of three races:",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D027",
+            "alias": "Total Two or More Races: Population of three races: White; Black or African American; American Indian and Alaska Native",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D028",
+            "alias": "Total Two or More Races: Population of three races: White; Black or African American; Asian",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D029",
+            "alias": "Total Two or More Races: Population of three races: White; Black or African American; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D030",
+            "alias": "Total Two or More Races: Population of three races: White; Black or African American; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D031",
+            "alias": "Total Two or More Races: Population of three races: White; American Indian and Alaska Native; Asian",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D032",
+            "alias": "Total Two or More Races: Population of three races: White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D033",
+            "alias": "Total Two or More Races: Population of three races: White; American Indian and Alaska Native; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D034",
+            "alias": "Total Two or More Races: Population of three races: White; Asian; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D035",
+            "alias": "Total Two or More Races: Population of three races: White; Asian; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D036",
+            "alias": "Total Two or More Races: Population of three races: White; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D037",
+            "alias": "Total Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Asian",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D038",
+            "alias": "Total Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D039",
+            "alias": "Total Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D040",
+            "alias": "Total Two or More Races: Population of three races: Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D041",
+            "alias": "Total Two or More Races: Population of three races: Black or African American; Asian; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D042",
+            "alias": "Total Two or More Races: Population of three races: Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D043",
+            "alias": "Total Two or More Races: Population of three races: American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D044",
+            "alias": "Total Two or More Races: Population of three races: American Indian and Alaska Native; Asian; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D045",
+            "alias": "Total Two or More Races: Population of three races: American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D046",
+            "alias": "Total Two or More Races: Population of three races: Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D047",
+            "alias": "Total Two or More Races: Population of four races:",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D048",
+            "alias": "Total Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Asian",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D049",
+            "alias": "Total Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D050",
+            "alias": "Total Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D051",
+            "alias": "Total Two or More Races: Population of four races: White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D052",
+            "alias": "Total Two or More Races: Population of four races: White; Black or African American; Asian; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D053",
+            "alias": "Total Two or More Races: Population of four races: White; Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D054",
+            "alias": "Total Two or More Races: Population of four races: White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D055",
+            "alias": "Total Two or More Races: Population of four races: White; American Indian and Alaska Native; Asian; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D056",
+            "alias": "Total Two or More Races: Population of four races: White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D057",
+            "alias": "Total Two or More Races: Population of four races: White; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D058",
+            "alias": "Total Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D059",
+            "alias": "Total Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Asian; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D060",
+            "alias": "Total Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D061",
+            "alias": "Total Two or More Races: Population of four races: Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D062",
+            "alias": "Total Two or More Races: Population of four races: American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D063",
+            "alias": "Total Two or More Races: Population of five races:",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D064",
+            "alias": "Total Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D065",
+            "alias": "Total Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Asian; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D066",
+            "alias": "Total Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D067",
+            "alias": "Total Two or More Races: Population of five races: White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D068",
+            "alias": "Total Two or More Races: Population of five races: White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D069",
+            "alias": "Total Two or More Races: Population of five races: Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D070",
+            "alias": "Total Two or More Races: Population of six races:",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D071",
+            "alias": "Total Two or More Races: Population of six races: White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SHAPE.area",
+            "alias": "SHAPE.area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SHAPE.len",
+            "alias": "SHAPE.len",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "USGS Quads",
+      "id": "SearchRescue_1952_4",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/SearchRescue/SearchRescue/MapServer/4",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SAGIS.SAGIS.BND_USGS_quad24k.AREA",
+            "alias": "AREA",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PERIMETER",
+            "alias": "PERIMETER",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "QUAD24K_",
+            "alias": "QUAD24K_",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "QUAD24K_ID",
+            "alias": "QUAD24K_ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "QUADID",
+            "alias": "QUADID",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CENTLAT",
+            "alias": "CENTLAT",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CENTLONG",
+            "alias": "CENTLONG",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STATE",
+            "alias": "STATE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LATLONG",
+            "alias": "LATLONG",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "OHIO_INDEX",
+            "alias": "OHIO_INDEX",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GRID60",
+            "alias": "GRID60",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SearchRescueMap",
+            "alias": "SearchRescueMap",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape.area",
+            "alias": "Shape.area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape.len",
+            "alias": "Shape.len",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Chatham County National Grid",
+      "id": "SearchRescue_1952_5",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/SearchRescue/SearchRescue/MapServer/5"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "USNG Chatham 100m",
+      "id": "SearchRescue_1952_6",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/SearchRescue/SearchRescue/MapServer/6",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "USNG_100m",
+            "alias": "USNG 100m",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "USNG",
+            "alias": "USNG",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GRID1MIL",
+            "alias": "GRID1MIL",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GRID100K",
+            "alias": "GRID100K",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Eastings",
+            "alias": "Eastings",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Northings",
+            "alias": "Northings",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "XMIN",
+            "alias": "XMIN",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "XMAX",
+            "alias": "XMAX",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "YMIN",
+            "alias": "YMIN",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "YMAX",
+            "alias": "YMAX",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GRIDSize",
+            "alias": "Grid Size",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Geometry",
+            "alias": "Geometry",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape.STArea()",
+            "alias": "Shape.STArea()",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape.STLength()",
+            "alias": "Shape.STLength()",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "GlobalID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Id",
+            "alias": "Id",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "USGS Quad 24k",
+      "id": "Maps_3917_4",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/SearchRescue/Maps/MapServer/4",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SAGIS.SAGIS.BND_USGS_quad24k.AREA",
+            "alias": "AREA",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PERIMETER",
+            "alias": "PERIMETER",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "QUAD24K_",
+            "alias": "QUAD24K_",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "QUAD24K_ID",
+            "alias": "QUAD24K_ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "QUADID",
+            "alias": "QUADID",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CENTLAT",
+            "alias": "CENTLAT",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CENTLONG",
+            "alias": "CENTLONG",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "STATE",
+            "alias": "STATE",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LATLONG",
+            "alias": "LATLONG",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "OHIO_INDEX",
+            "alias": "OHIO_INDEX",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GRID60",
+            "alias": "GRID60",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "SearchRescueMap",
+            "alias": "SearchRescueMap",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape.area",
+            "alias": "Shape.area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape.len",
+            "alias": "Shape.len",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "USNG Chatham County Topo",
+      "id": "Maps_3917_5",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/SearchRescue/Maps/MapServer/5",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Northings",
+            "alias": "Northings",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Eastings",
+            "alias": "Eastings",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GRID1MIL",
+            "alias": "GRID1MIL",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GRID100K",
+            "alias": "GRID100K",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "USNG",
+            "alias": "USNG",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Mapbook_page",
+            "alias": "Mapbook_page",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "MapbookImage_Page",
+            "alias": "MapbookImage_Page",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape.area",
+            "alias": "Shape.area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape.len",
+            "alias": "Shape.len",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "USNG Chatham County Image",
+      "id": "Maps_3917_6",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/SearchRescue/Maps/MapServer/6",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Northings",
+            "alias": "Northings",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Eastings",
+            "alias": "Eastings",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GRID1MIL",
+            "alias": "GRID1MIL",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GRID100K",
+            "alias": "GRID100K",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "USNG",
+            "alias": "USNG",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Mapbook_page",
+            "alias": "Mapbook_page",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "MapbookImage_Page",
+            "alias": "MapbookImage_Page",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape.area",
+            "alias": "Shape.area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape.len",
+            "alias": "Shape.len",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "USNG Chatham 100m",
+      "id": "Maps_3917_7",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/SearchRescue/Maps/MapServer/7",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "USNG_100m",
+            "alias": "USNG 100m",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "USNG",
+            "alias": "USNG",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GRID1MIL",
+            "alias": "GRID1MIL",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "GRID100K",
+            "alias": "GRID100K",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Eastings",
+            "alias": "Eastings",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Northings",
+            "alias": "Northings",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "XMIN",
+            "alias": "XMIN",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "XMAX",
+            "alias": "XMAX",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "YMIN",
+            "alias": "YMIN",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "YMAX",
+            "alias": "YMAX",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GRIDSize",
+            "alias": "Grid Size",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Geometry",
+            "alias": "Geometry",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape.STArea()",
+            "alias": "Shape.STArea()",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape.STLength()",
+            "alias": "Shape.STLength()",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "GlobalID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Id",
+            "alias": "Id",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Interstate",
+      "id": "Roads_9377_38",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/Roads/Roads/MapServer/38"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Parkways",
+      "id": "Roads_9377_39",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/Roads/Roads/MapServer/39"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Major Roads",
+      "id": "Roads_9377_40",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/Roads/Roads/MapServer/40"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Local Roads",
+      "id": "Roads_9377_41",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/Roads/Roads/MapServer/41"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Boundary",
+      "id": "sat_meteo_emulated_imagery_lightningstrikedensity_goes_time_9221_1",
+      "layer": {
+        "url": "https://nowcoast.noaa.gov/arcgis/rest/services/nowcoast/sat_meteo_emulated_imagery_lightningstrikedensity_goes_time/MapServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Image Footprints with Time Attributes",
+      "id": "sat_meteo_emulated_imagery_lightningstrikedensity_goes_time_9221_2",
+      "layer": {
+        "url": "https://nowcoast.noaa.gov/arcgis/rest/services/nowcoast/sat_meteo_emulated_imagery_lightningstrikedensity_goes_time/MapServer/2"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Boundary",
+      "id": "radar_meteo_imagery_nexrad_time_7282_1",
+      "layer": {
+        "url": "https://nowcoast.noaa.gov/arcgis/rest/services/nowcoast/radar_meteo_imagery_nexrad_time/MapServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Image Footprints with Time Attributes",
+      "id": "radar_meteo_imagery_nexrad_time_7282_2",
+      "layer": {
+        "url": "https://nowcoast.noaa.gov/arcgis/rest/services/nowcoast/radar_meteo_imagery_nexrad_time/MapServer/2"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Tropical Storm",
+      "id": "Regional_SLOSH_2012_7976_1",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/Regional_SLOSH_2012/MapServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID_1",
+            "alias": "OBJECTID_1",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Category",
+            "alias": "Category",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Category 1 Hurricane",
+      "id": "Regional_SLOSH_2012_7976_2",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/Regional_SLOSH_2012/MapServer/2",
+        "fields": [
+          {
+            "name": "OBJECTID_1",
+            "alias": "OBJECTID_1",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Category",
+            "alias": "Category",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Category 2 Hurricane",
+      "id": "Regional_SLOSH_2012_7976_3",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/Regional_SLOSH_2012/MapServer/3",
+        "fields": [
+          {
+            "name": "OBJECTID_1",
+            "alias": "OBJECTID_1",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Category",
+            "alias": "Category",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Category 3 Hurricane",
+      "id": "Regional_SLOSH_2012_7976_4",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/Regional_SLOSH_2012/MapServer/4",
+        "fields": [
+          {
+            "name": "OBJECTID_1",
+            "alias": "OBJECTID_1",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Category",
+            "alias": "Category",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Category 4 Hurricane",
+      "id": "Regional_SLOSH_2012_7976_5",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/Regional_SLOSH_2012/MapServer/5",
+        "fields": [
+          {
+            "name": "OBJECTID_1",
+            "alias": "OBJECTID_1",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Category",
+            "alias": "Category",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Category 5 Hurricane",
+      "id": "Regional_SLOSH_2012_7976_6",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/Regional_SLOSH_2012/MapServer/6",
+        "fields": [
+          {
+            "name": "OBJECTID_1",
+            "alias": "OBJECTID_1",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Category",
+            "alias": "Category",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Above Category 5 Hurricane",
+      "id": "Regional_SLOSH_2012_7976_7",
+      "layer": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/Regional_SLOSH_2012/MapServer/7",
+        "fields": [
+          {
+            "name": "OBJECTID_1",
+            "alias": "OBJECTID_1",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Category",
+            "alias": "Category",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": false
+}

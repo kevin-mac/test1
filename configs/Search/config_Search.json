@@ -1,0 +1,51 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "url": "http://sagisservices.thempc.org/saint/rest/services/Locator/CENTERLINES/GeocodeServer",
+      "name": "SAGIS Centerlines",
+      "singleLineFieldName": "Single Line Input",
+      "placeholder": "110 E State St",
+      "countryCode": "",
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 4,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": false,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "type": "locator"
+    },
+    {
+      "url": "http://sagisservices.thempc.org/saint/rest/services/Locator/MAD/GeocodeServer",
+      "name": "SAGIS Address Points",
+      "singleLineFieldName": "Single Line Input",
+      "placeholder": "110 E State St",
+      "countryCode": "",
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": false,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "type": "locator"
+    },
+    {
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "name": "World",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "",
+      "countryCode": "USA",
+      "zoomScale": 50000,
+      "maxSuggestions": 3,
+      "maxResults": 4,
+      "searchInCurrentMapExtent": true,
+      "enableLocalSearch": true,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "type": "locator"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "filters": [
+    {
+      "layerId": "CEMA1_5289",
+      "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/1",
+      "name": "Critical Facilities",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "HAZMAT"
+            },
+            "interactiveObj": {
+              "prompt": "Type of Facility is",
+              "hint": "",
+              "cascade": "previous"
+            },
+            "caseSensitive": false,
+            "expr": "CATEGORY = 'HAZMAT'"
+          }
+        ],
+        "expr": "CATEGORY = 'HAZMAT'"
+      },
+      "icon": "",
+      "enableMapFilter": true
+    },
+    {
+      "layerId": "CEMA1_2325",
+      "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/5",
+      "name": "Special Needs",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "LastName",
+              "label": "LastName",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "LastName is",
+              "hint": "",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": ""
+      },
+      "icon": "",
+      "enableMapFilter": true
+    }
+  ]
+}

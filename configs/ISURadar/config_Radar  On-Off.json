@@ -1,0 +1,53 @@
+{
+  "configText": "Widget For ISURadar",
+  "updateIntervalMilliSec": "1000",
+  "isuLayers": [
+    {
+      "timeOffset": "-50",
+      "layerName": "nexrad-n0r-900913-m50m"
+    },
+    {
+      "timeOffset": "-45",
+      "layerName": "nexrad-n0r-900913-m45m"
+    },
+    {
+      "timeOffset": "-40",
+      "layerName": "nexrad-n0r-900913-m40m"
+    },
+    {
+      "timeOffset": "-35",
+      "layerName": "nexrad-n0r-900913-m35m"
+    },
+    {
+      "timeOffset": "-30",
+      "layerName": "nexrad-n0r-900913-m30m"
+    },
+    {
+      "timeOffset": "-25",
+      "layerName": "nexrad-n0r-900913-m25m"
+    },
+    {
+      "timeOffset": "-20",
+      "layerName": "nexrad-n0r-900913-m20m"
+    },
+    {
+      "timeOffset": "-15",
+      "layerName": "nexrad-n0r-900913-m15m"
+    },
+    {
+      "timeOffset": "-10",
+      "layerName": "nexrad-n0r-900913-m10m"
+    },
+    {
+      "timeOffset": "-05",
+      "layerName": "nexrad-n0r-900913-m05m"
+    },
+    {
+      "timeOffset": "0",
+      "layerName": "nexrad-n0r-900913"
+    }
+  ],
+  "about": {
+    "aboutContent": "Radar Loop"
+  }
+}

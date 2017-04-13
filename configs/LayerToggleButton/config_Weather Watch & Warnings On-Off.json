@@ -1,0 +1,103 @@
+{
+  "layerOptions": {
+    "CEMA1_5289": {
+      "display": false
+    },
+    "CEMA1_9790": {
+      "display": false
+    },
+    "CEMA1_2325": {
+      "display": false
+    },
+    "CEMA1_1997": {
+      "display": false
+    },
+    "CEMA1_7854": {
+      "display": false
+    },
+    "CEMA1_121": {
+      "display": false
+    },
+    "CEMA1_9802": {
+      "display": false
+    },
+    "CEMA1_3863": {
+      "display": false
+    },
+    "ahps_riv_gauges_3393": {
+      "display": false
+    },
+    "ahps_riv_gauges_4943": {
+      "display": false
+    },
+    "watch_warn_adv_1896": {
+      "display": true
+    },
+    "radar_meteo_imagery_nexrad_time_5374": {
+      "display": false
+    },
+    "radar_meteo_imagery_nexrad_time_5374_0": {
+      "display": false
+    },
+    "radar_meteo_imagery_nexrad_time_5374_1": {
+      "display": false
+    },
+    "radar_meteo_imagery_nexrad_time_5374_2": {
+      "display": false
+    },
+    "radar_meteo_imagery_nexrad_time_5374_3": {
+      "display": false
+    },
+    "Regional_SLOSH_2012_7976": {
+      "display": false
+    },
+    "Regional_SLOSH_2012_7976_0": {
+      "display": false
+    },
+    "Regional_SLOSH_2012_7976_1": {
+      "display": false
+    },
+    "Regional_SLOSH_2012_7976_2": {
+      "display": false
+    },
+    "Regional_SLOSH_2012_7976_3": {
+      "display": false
+    },
+    "Regional_SLOSH_2012_7976_4": {
+      "display": false
+    },
+    "Regional_SLOSH_2012_7976_5": {
+      "display": false
+    },
+    "Regional_SLOSH_2012_7976_6": {
+      "display": false
+    },
+    "Regional_SLOSH_2012_7976_7": {
+      "display": false
+    },
+    "FloodZones2013_3576": {
+      "display": false
+    },
+    "FloodZones2013_3576_0": {
+      "display": false
+    },
+    "FloodZones2013_3576_1": {
+      "display": false
+    },
+    "CEMA_ReEntry2016_7095": {
+      "display": false
+    },
+    "CEMA_ReEntry2016_7095_0": {
+      "display": false
+    },
+    "CEMA_ReEntry2016_7095_1": {
+      "display": false
+    },
+    "CEMA_ReEntry2016_7095_2": {
+      "display": false
+    },
+    "CEMA_ReEntry2016_7095_3": {
+      "display": false
+    }
+  }
+}

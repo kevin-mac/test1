@@ -1,0 +1,133 @@
+{
+  "comment": "Do not change lyr_types unless you have the widget JS code to support them",
+  "geometryService": {
+    "url": "http://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer"
+  },
+  "geocodeService": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+  },
+  "routeService": {
+    "url": "http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Network/USA/NAServer/Route",
+    "comment": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World"
+  },
+  "enableRouting": true,
+  "special_layer": {
+    "label": "Weather",
+    "value": "weather",
+    "url": "http://api.worldweatheronline.com/free/v1/weather.ashx?format=json&num_of_days=3&extra=localObsTime&key=63hkyhwzpks3a3kj9k9jdfeg",
+    "external_lyr": {
+      "label": "Weather observation web service",
+      "url": "http://api.worldweatheronline.com/free/v1/weather.ashx?format=json&num_of_days=3&extra=localObsTime&key=63hkyhwzpks3a3kj9k9jdfeg"
+    }
+  },
+  "bufferRange": {
+    "minimum": 0,
+    "maximum": 100000
+  },
+  "distanceUnits": "feet",
+  "distanceSettings": {
+    "miles": 9035,
+    "kilometers": 9036,
+    "feet": 9002,
+    "meters": 9001,
+    "yards": 9037,
+    "nauticalMiles": 9030
+  },
+  "maxDistance": 1,
+  "defaultZoomLevel": 13,
+  "tabs": [
+    {
+      "label": "Weather",
+      "type": "weather",
+      "layers": "",
+      "url": "http://api.worldweatheronline.com/free/v1/weather.ashx?format=json&num_of_days=3&extra=localObsTime&key=63hkyhwzpks3a3kj9k9jdfeg"
+    },
+    {
+      "label": "Functional Medical Needs",
+      "type": "groupedSummary",
+      "layers": "CEMA1_2325",
+      "layerTitle": "Special Needs",
+      "advStat": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/5",
+        "stats": {
+          "tabCount": false,
+          "pre": [
+            {
+              "value": 0,
+              "expression": "LastName",
+              "label": "Name"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "Critical Facilities",
+      "type": "groupedSummary",
+      "layers": "CEMA1_5289",
+      "layerTitle": "Critical Facilities",
+      "advStat": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/CEMA/CEMA1/MapServer/1",
+        "stats": {
+          "tabCount": true,
+          "pre": [
+            {
+              "value": 0,
+              "expression": "FACILITY",
+              "label": "Facility"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "Census Block Group 2010",
+      "type": "summary",
+      "layers": "Census_8809",
+      "layerTitle": "Chatham Census Block Group 2010",
+      "advStat": {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/OpenData/Census/MapServer/0",
+        "stats": {
+          "tabCount": false,
+          "sum": [
+            {
+              "value": 0,
+              "expression": "D001",
+              "label": "Total Population"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "Census Block 2010",
+      "type": "summary",
+      "layers": "Tracts_Blocks_8506",
+      "layerTitle": "Census 2010 Blocks",
+      "advStat": {
+        "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Tracts_Blocks/MapServer/12",
+        "stats": {
+          "tabCount": false,
+          "sum": [
+            {
+              "value": 0,
+              "expression": "POP100",
+              "label": "Total Population"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "csvAllFields": "true",
+  "summaryDisplayEnabled": "true",
+  "incidentLabel": "Incident",
+  "locateIncidentLabel": "Locate Incident",
+  "bufferLabel": "Buffer Distance",
+  "saveEnabled": false,
+  "savePoints": false,
+  "saveLines": false,
+  "savePolys": false,
+  "snapshotEnabled": true,
+  "celsius": false
+}

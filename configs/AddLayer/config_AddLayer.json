@@ -1,0 +1,134 @@
+{
+  "layers": [
+    {
+      "type": "Dynamic",
+      "name": "GDOT",
+      "url": "https://egis.dot.ga.gov/arcgis/rest/services/GEOPI_APP/MapServer",
+      "opacity": 1,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "0,2,3,4,5",
+      "visiblelayers": "1"
+    },
+    {
+      "type": "Dynamic",
+      "name": "CRC Tybee",
+      "url": "http://maps.crc.ga.gov/crcarcgis/rest/services/Chatham/Tybee_GIS_web_ap/MapServer",
+      "opacity": 1,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+      "visiblelayers": ""
+    },
+    {
+      "type": "Dynamic",
+      "name": "CRC Bloomingdale Hydrants",
+      "url": "http://maps.crc.ga.gov/crcarcgis/rest/services/Bloomingdale/Bloomingdale/MapServer/",
+      "opacity": 1,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "1,2,3,4",
+      "visiblelayers": "0"
+    },
+    {
+      "type": "Dynamic",
+      "name": "CRC Tybee DPW",
+      "url": "http://maps.crc.ga.gov/crcarcgis/rest/services/Tybee/TybeePublicWorks/MapServer",
+      "opacity": 1,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "0,1,2,3,4,5,6,7,8,9,10",
+      "visiblelayers": ""
+    },
+    {
+      "type": "Dynamic",
+      "name": "GEMA Groundwater Wells",
+      "url": "https://gis.gema.ga.gov/ags/rest/services/Public/GroundWaterWells/MapServer",
+      "opacity": 1,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "0",
+      "visiblelayers": ""
+    },
+    {
+      "type": "Dynamic",
+      "name": "GEMA Traffic Cams",
+      "url": "https://gis.gema.ga.gov/ags/rest/services/Public/Camera_NAVII/MapServer",
+      "opacity": 1,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "",
+      "visiblelayers": "0"
+    },
+    {
+      "type": "Feature",
+      "url": "https://gis.gema.ga.gov/ags/rest/services/Public/GA_SVI_2014/MapServer//0",
+      "name": "GEMA Social Vulnerability FeatureLayer",
+      "opacity": 0.6,
+      "visible": true,
+      "showLabels": true,
+      "autorefresh": 0,
+      "mode": "ondemand"
+    },
+    {
+      "type": "Dynamic",
+      "name": "National Fire Tracking - Perimeters",
+      "url": "https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_perims/MapServer",
+      "opacity": 1,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "",
+      "visiblelayers": "0,1,2,3,4,5,6,7"
+    },
+    {
+      "type": "Dynamic",
+      "name": "National Fire Tracking - Fires",
+      "url": "https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_fires/MapServer",
+      "opacity": 1,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "",
+      "visiblelayers": "1,2,3,4"
+    },
+    {
+      "type": "Dynamic",
+      "name": "FEMA Open Shelters",
+      "url": "https://services.femadata.com/arcgis/rest/services/Shelters/FEMA_Open_Shelters/MapServer",
+      "opacity": 1,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "",
+      "visiblelayers": "0"
+    },
+    {
+      "type": "Dynamic",
+      "name": "NOAA Hurricanes",
+      "url": "https://idpgis.ncep.noaa.gov/arcgis/rest/services/NWS_Forecasts_Guidance_Warnings/NHC_Atl_trop_cyclones_active/MapServer",
+      "opacity": 1,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61",
+      "visiblelayers": ""
+    }
+  ]
+}
